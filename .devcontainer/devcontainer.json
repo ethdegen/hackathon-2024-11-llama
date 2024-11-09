@@ -1,0 +1,22 @@
+{
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "bradlc.vscode-tailwindcss",
+                "charliermarsh.ruff",
+                "dbaeumer.vscode-eslint",
+                "eamodio.gitlens",
+                "esbenp.prettier-vscode",
+                "golang.go",
+                "ms-azuretools.vscode-docker",
+                "ms-python.python",
+                "Prisma.prisma",
+                "shd101wyy.markdown-preview-enhanced"
+            ]
+        }
+    },
+    "dockerComposeFile": ["./docker-compose.yml"],
+    "service": "postgres",
+    "shutdownAction": "stopCompose",
+    "workspaceFolder": "/workspace"
+}
